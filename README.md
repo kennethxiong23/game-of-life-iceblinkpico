@@ -72,6 +72,12 @@ make clean
 
 For each of the 64 cells, `life.sv` counts the eight neighboring cells. Live cells survive with two or three neighbors; dead cells become alive with exactly three neighbors. The modulo arithmetic makes the grid wrap at all four edges.
 
+## Demo
+
+Watch the Game of Life running on the iceBlinkPico and WS2812B matrix:
+
+[Download or view the demo video](game-of-life-demo.mov)
+
 ## Attribution
 
 This project was isolated from the `examples/led_matrix` Game of Life example in [kennethxiong23/iceBlinkPico](https://github.com/kennethxiong23/iceBlinkPico). The board files and original project are by Bradley Minch and are distributed under the BSD 2-Clause License.
