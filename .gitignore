@@ -1,0 +1,6 @@
+top.json
+top.asc
+top.bin
+top.blif
+*.vcd
+a.out
