@@ -1,6 +1,6 @@
 module life(
     input  logic [511:0] data_in,   
-    output logic [511:0] data_out,
+    output logic [511:0] data_out
 );
     // Declare everything up front
     integer i, x, y, dx, dy, nx, ny, n_idx, neighbors;
