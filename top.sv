@@ -77,7 +77,7 @@ module top(
 
     life life_engine (
         .data_in(data_in_mux),
-        .data_out(data_out_mux),
+        .data_out(data_out_mux)
     );
     
     always_comb begin
